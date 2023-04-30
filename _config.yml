@@ -14,11 +14,11 @@ favicon: 'favicon.ico'
 #dribbble: 'mydribbble'
 # facebook: 'myfacebook'
 # twitter: 'mytwitter'
-linkedin: 'kalihale'
+LinkedIn: 'kalihale'
 # instagram: 'myinsta'
 # pinterest: 'mypinterest'
 # youtube: 'myyoutube'
-github: 'kalihale'
+GitHub: 'kalihale'
 #gitlab-user: ''
 #codepen: ''
 #steam: ''
@@ -31,12 +31,12 @@ github: 'kalihale'
 # tumblr: 'mytumblr'
 # weibo: 'myweibo'
 # vk: 'myvk'
-blog: 'kalihale.github.io/blog'
+Blog: 'kalihale.github.io/blog'
 # email: 'hello@example.com'
 # messenger: 'myfbchat'
-name pronunciation: 'www.youtube.com/watch?v=utP2A03TJVo'
+Name: 'www.youtube.com/watch?v=utP2A03TJVo'
 
-social-links-order: [github, facebook, twitter, instagram, tumblr, pinterest, linkedin, youtube, vk, weibo, dribbble, messenger, blog, email, name pronunciation]
+social-links-order: [GitHub, facebook, twitter, instagram, tumblr, pinterest, LinkedIn, youtube, vk, weibo, dribbble, messenger, Blog, email, Name]
 
 # Yaml manifest of supported social links
 # Requirements:
@@ -65,7 +65,7 @@ social-links:
   - name: twitter
     url-pattern: twitter.com/__USERNAME__
 
-  - name: linkedin
+  - name: LinkedIn
     url-pattern: linkedin.com/in/__USERNAME__
 
   - name: google-plus
@@ -86,7 +86,7 @@ social-links:
   - name: pinterest
     url-pattern: pinterest.com/__USERNAME__
 
-  - name: github
+  - name: GitHub
     url-pattern: github.com/__USERNAME__
     icon-class: fab fa-2x fa-github
 
@@ -147,7 +147,7 @@ social-links:
   - name: quora
     url-pattern: www.quora.com/profile/__USERNAME__
 
-  - name: blog
+  - name: Blog
     url-pattern: '__USERNAME__'
     icon-class: fas fa-2x fa-blog
 
@@ -156,7 +156,7 @@ social-links:
     url-pattern: '__USERNAME__'
     icon-class: far fa-2x fa-envelope-open
     
-  - name: name pronunciation
+  - name: Name
     url-pattern: '__USERNAME__'
     icon-class: fas fa-2x fa-signature
   
