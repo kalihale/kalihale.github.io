@@ -14,7 +14,7 @@ favicon: 'favicon.ico'
 #dribbble: 'mydribbble'
 # facebook: 'myfacebook'
 # twitter: 'mytwitter'
-linkedin: 'kalihale'
+LinkedIn: 'kalihale'
 # instagram: 'myinsta'
 # pinterest: 'mypinterest'
 # youtube: 'myyoutube'
@@ -34,9 +34,9 @@ GitHub: 'kalihale'
 Blog: 'kalihale.github.io/blog'
 # email: 'hello@example.com'
 # messenger: 'myfbchat'
-Name: 'www.youtube.com/watch?v=utP2A03TJVo'
+My Name: 'www.youtube.com/watch?v=utP2A03TJVo'
 
-social-links-order: [GitHub, facebook, twitter, instagram, tumblr, pinterest, linkedin, youtube, vk, weibo, dribbble, messenger, Blog, email, Name]
+social-links-order: [GitHub, facebook, twitter, instagram, tumblr, pinterest, LinkedIn, youtube, vk, weibo, dribbble, messenger, Blog, email, My Name]
 
 # Yaml manifest of supported social links
 # Requirements:
@@ -65,8 +65,9 @@ social-links:
   - name: twitter
     url-pattern: twitter.com/__USERNAME__
 
-  - name: linkedin
+  - name: LinkedIn
     url-pattern: linkedin.com/in/__USERNAME__
+    icon-class: fab fa-2x fa-linkedin
 
   - name: google-plus
     url-pattern: plus.google.com/+__USERNAME__
@@ -156,7 +157,6 @@ social-links:
     url-pattern: '__USERNAME__'
     icon-class: far fa-2x fa-envelope-open
     
-  - name: Name
+  - name: My Name
     url-pattern: '__USERNAME__'
     icon-class: fas fa-2x fa-signature
-  
