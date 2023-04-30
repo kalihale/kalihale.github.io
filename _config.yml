@@ -34,8 +34,9 @@ github: 'kalihale'
 blog: 'kalihale.github.io/blog'
 # email: 'hello@example.com'
 # messenger: 'myfbchat'
+name_pronunciation: 'https://www.youtube.com/watch?v=utP2A03TJVo'
 
-social-links-order: [github, facebook, twitter, instagram, tumblr, pinterest, linkedin, youtube, vk, weibo, dribbble, messenger, blog, email]
+social-links-order: [github, facebook, twitter, instagram, tumblr, pinterest, linkedin, youtube, vk, weibo, dribbble, messenger, blog, email, name_pronunciation]
 
 # Yaml manifest of supported social links
 # Requirements:
@@ -154,3 +155,8 @@ social-links:
     url-scheme: 'mailto:'
     url-pattern: '__USERNAME__'
     icon-class: far fa-2x fa-envelope-open
+    
+  - name: name_pronunciation
+    url-pattern: '__USERNAME__'
+    icon-class: fas fa-2x fa-signature
+  
