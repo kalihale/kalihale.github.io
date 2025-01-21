@@ -32,12 +32,12 @@ Bluesky: 'kaliflower9'
 # tumblr: 'mytumblr'
 # weibo: 'myweibo'
 # vk: 'myvk'
-# Blog: 'kalihale.github.io/blog'
+Blog: 'kalihale.github.io'
 # email: 'hello@example.com'
 # messenger: 'myfbchat'
 My Name: 'www.youtube.com/watch?v=utP2A03TJVo'
 
-social-links-order: [GitHub, facebook, twitter, instagram, tumblr, pinterest, LinkedIn, youtube, vk, weibo, dribbble, messenger, Blog, email, My Name]
+social-links-order: [GitHub, LinkedIn, BlueSky, Blog, email, My Name]
 
 # Yaml manifest of supported social links
 # Requirements:
