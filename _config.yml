@@ -151,7 +151,7 @@ social-links:
 
   - name: bluesky
     url-pattern: bsky.app/profile/__USERNAME__
-    icon-class: fab fa-bluesky
+    icon-class: fa-brands fa-bluesky
 
   - name: Blog
     url-pattern: '__USERNAME__'
