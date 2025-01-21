@@ -150,8 +150,8 @@ social-links:
     url-pattern: www.quora.com/profile/__USERNAME__
 
   - name: bluesky
-    url-pattern: https://bsky.app/profile/__USERNAME__
-    icon-class: fab fa-2x fa-bluesky
+    url-pattern: bsky.app/profile/__USERNAME__
+    icon-class: fabrands fa-bluesky
 
   - name: Blog
     url-pattern: '__USERNAME__'
