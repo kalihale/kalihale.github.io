@@ -146,8 +146,8 @@ social-links:
   - name: snapchat
     url-pattern: snapchat.com/add/__USERNAME__
 
-  - name: quora
-    url-pattern: www.quora.com/profile/__USERNAME__
+  # - name: quora
+  #   url-pattern: www.quora.com/profile/__USERNAME__
 
   - name: bluesky
     url-pattern: bsky.app/profile/__USERNAME__
