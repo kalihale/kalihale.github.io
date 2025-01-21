@@ -1,5 +1,5 @@
 # Theme
-remote_theme: kalihale/kalihale.github.io@main
+remote_theme: kalihale/cover-card@main
 
 # Title and tag line
 title: 'Kali Hale'
@@ -19,6 +19,7 @@ LinkedIn: 'kalihale'
 # pinterest: 'mypinterest'
 # youtube: 'myyoutube'
 GitHub: 'kalihale'
+Bluesky: 'kaliflower9'
 #gitlab-user: ''
 #codepen: ''
 #steam: ''
