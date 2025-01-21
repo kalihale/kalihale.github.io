@@ -37,7 +37,7 @@ Blog: 'kalihale.github.io/blog'
 # messenger: 'myfbchat'
 My Name: 'www.youtube.com/watch?v=utP2A03TJVo'
 
-social-links-order: [GitHub, LinkedIn, Bluesky, Blog, email, My Name]
+social-links-order: [GitHub, LinkedIn, bluesky, Blog, email, My Name]
 
 # Yaml manifest of supported social links
 # Requirements:
