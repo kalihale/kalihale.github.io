@@ -19,7 +19,7 @@ LinkedIn: 'kalihale'
 # pinterest: 'mypinterest'
 # youtube: 'myyoutube'
 GitHub: 'kalihale'
-bluesky: 'kaliflower9'
+bluesky: 'kaliflower9.bsky.social'
 #gitlab-user: ''
 #codepen: ''
 #steam: ''
@@ -151,7 +151,7 @@ social-links:
 
   - name: bluesky
     url-pattern: https://bsky.app/profile/__USERNAME__
-    icon-class: fas fa-2x fa-bluesky
+    icon-class: fab fa-2x fa-bluesky
 
   - name: Blog
     url-pattern: '__USERNAME__'
