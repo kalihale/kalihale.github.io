@@ -3,7 +3,7 @@ remote_theme: kalihale/cover-card@main
 
 # Title and tag line
 title: 'Kali Hale'
-description: 'PhD Computer Science student at UCSB with a focus on privacy in distributed systems.'
+description: 'PhD student in Computer Science at UCSB with a focus on privacy in distributed systems.'
 
 # Images
 avatar: 'avatar2.jpg'
