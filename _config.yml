@@ -37,10 +37,12 @@ Blog: 'kalihale.github.io/blog'
 Email: 'kalihale@ucsb.edu'
 # messenger: 'myfbchat'
 My Name: 'www.youtube.com/watch?v=utP2A03TJVo'
+ORCID: '0009-0001-2925-0607'
+Publications: 'kalihale.github.io/publications'
 
 top-links-order: [Academic CV, Publications, Email]
 
-social-links-order: [GitHub, LinkedIn, Bluesky, Blog]
+social-links-order: [GitHub, LinkedIn, Bluesky, ORCID, Blog]
 
 # Yaml manifest of supported social links
 # Requirements:
@@ -62,34 +64,9 @@ social-links-order: [GitHub, LinkedIn, Bluesky, Blog]
 #     - defaults to `fab` style and uses value of `name` attribute (e.g. fab fa-2x fa-twitter)
 #     - **optional**
 social-links:
-  - name: facebook
-    url-pattern: facebook.com/__USERNAME__
-    icon-class: fab fa-2x fa-facebook-f
-
-  - name: twitter
-    url-pattern: twitter.com/__USERNAME__
-
   - name: LinkedIn
     url-pattern: linkedin.com/in/__USERNAME__
     icon-class: fab fa-2x fa-linkedin
-
-  - name: google-plus
-    url-pattern: plus.google.com/+__USERNAME__
-
-  - name: vk
-    url-pattern: vk.com/__USERNAME__
-
-  - name: weibo
-    url-pattern: weibo.com/__USERNAME__
-
-  - name: instagram
-    url-pattern: instagram.com/__USERNAME__
-
-  - name: flickr
-    url-pattern: flickr.com/__USERNAME__
-
-  - name: pinterest
-    url-pattern: pinterest.com/__USERNAME__
 
   - name: GitHub
     url-pattern: github.com/__USERNAME__
@@ -105,52 +82,12 @@ social-links:
   - name: stack-overflow
     url-pattern: stackoverflow.com/users/__USERNAME__
 
-  - name: reddit
-    url-pattern: reddit.com/user/__USERNAME__
-
   - name: rubygems
     url-pattern: rubygems.org/profiles/__USERNAME__
     icon-class: far fa-2x fa-gem
 
-  - name: steam
-    url-pattern: steamcommunity.com/id/__USERNAME__
-
-  - name: youtube
-    url-pattern: youtube.com/__USERNAME__
-
-  - name: vimeo
-    url-pattern: vimeo.com/__USERNAME__
-
-  - name: soundcloud
-    url-pattern: soundcloud.com/__USERNAME__
-
-  - name: lastfm
-    url-pattern: last.fm/user/__USERNAME__
-
   - name: medium
     url-pattern: medium.com/@__USERNAME__
-
-  - name: tumblr
-    url-pattern: __USERNAME__.tumblr.com
-
-  - name: dribbble
-    url-pattern: dribbble.com/__USERNAME__
-
-  - name: keybase
-    url-pattern: keybase.io/__USERNAME__
-
-  - name: messenger
-    url-pattern: m.me/__USERNAME__
-    icon-class: fab fa-2x fa-facebook-messenger
-
-  - name: telegram
-    url-pattern: telegram.me/__USERNAME__
-
-  - name: snapchat
-    url-pattern: snapchat.com/add/__USERNAME__
-
-  # - name: quora
-  #   url-pattern: www.quora.com/profile/__USERNAME__
 
   - name: Bluesky
     url-pattern: bsky.app/profile/__USERNAME__
@@ -172,3 +109,7 @@ social-links:
   - name: My Name
     url-pattern: '__USERNAME__'
     icon-class: fas fa-2x fa-signature
+
+  - name: ORCID
+    url-pattern: https://orcid.org/__USERNAME__
+    icon-class: fab fa-2x fa-orcid
