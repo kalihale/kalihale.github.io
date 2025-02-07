@@ -74,28 +74,6 @@ a {
     padding: 15px;
     text-decoration: none;
 }
-a:link {
-  color: #6900ff;
-}
-
-a:visited {
-  color: #a5c300;
-}
-
-a:focus {
-  text-decoration: none;
-  background: #bae498;
-}
-
-a:hover {
-  text-decoration: none;
-  background: #cdfeaa;
-}
-
-a:active {
-  background: #6900ff;
-  color: #cdfeaa;
-}
 .description {
     display: none;
 }
