@@ -170,6 +170,7 @@ a:hover {
     display: inline-block;
     color: black;
     font-family: "Fira Sans";
+    font-weight: bold;
     margin-left: 40px;
     font-weight: normal;
 }
