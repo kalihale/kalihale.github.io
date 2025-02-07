@@ -38,7 +38,9 @@ Email: 'kalihale@ucsb.edu'
 # messenger: 'myfbchat'
 My Name: 'www.youtube.com/watch?v=utP2A03TJVo'
 
-social-links-order: [Academic CV, GitHub, LinkedIn, Bluesky, Blog, Email, My Name]
+top-links-order: [Academic CV, Publications, Email]
+
+social-links-order: [GitHub, LinkedIn, Bluesky, Blog, My Name]
 
 # Yaml manifest of supported social links
 # Requirements:
