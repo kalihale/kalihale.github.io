@@ -93,7 +93,7 @@ ul.top-links li a {
     text-decoration: none;
 }
 
-ul.top-links li a .description {
+.top-links-description {
     display: inline-block;
     color: black;
     font-family: Helvetica;
