@@ -40,7 +40,7 @@ My Name: 'www.youtube.com/watch?v=utP2A03TJVo'
 
 top-links-order: [Academic CV, Publications, Email]
 
-social-links-order: [GitHub, LinkedIn, Bluesky, Blog, My Name]
+social-links-order: [GitHub, LinkedIn, Bluesky, Blog]
 
 # Yaml manifest of supported social links
 # Requirements:
