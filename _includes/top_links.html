@@ -15,8 +15,10 @@
         {% assign default-icon-class = "fab fa-2x fa-" | append: link.name %}
         <li>
             <div class="top-link-container">
-              <a class="{{ link.icon-class | default: default-icon-class }}" href="{{ link.url-scheme | default: '//' }}{{ link.url-pattern | replace: '__USERNAME__', username }}"></a>
-              <span class="top-links-description">{{ link.name }}</span>
+              <a class="{{ link.icon-class | default: default-icon-class }}" href="{{ link.url-scheme | default: '//' }}{{ link.url-pattern | replace: '__USERNAME__', username }}">
+                  <span class="top-links-description-mobile">{{ link.name }}</span>
+              </a>
+              <span class="top-links-description-desktop">{{ link.name }}</span>
             </div>
         </li>
         {% endif %}
