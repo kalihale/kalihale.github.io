@@ -97,9 +97,23 @@ ul.top-links li a {
     display: inline-block;
     color: black;
     font-family: Helvetica;
-    margin-left: 10px;
     font-weight: normal;
 }
+
+.top-link-container {
+    display: flex;
+    flex-direction: column;   /* Stack items vertically */
+    align-items: center;      /* Center items horizontally */
+    justify-content: flex-start; /* Align items to the top */
+    height: 65px;             /* Ensure all icons are on the same height */
+    text-align: center;
+}
+
+.top-link-container a {
+    margin-bottom: 0px;       /* Add spacing between the icon and the text */
+}
+
+
 
 @media (max-width: 450px) {
 ul {
