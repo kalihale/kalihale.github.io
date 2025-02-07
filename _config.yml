@@ -14,12 +14,13 @@ favicon: 'favicon.ico'
 #dribbble: 'mydribbble'
 # facebook: 'myfacebook'
 # twitter: 'mytwitter'
+Academic CV: 'kalihale.github.io/academic-cv'
 LinkedIn: 'kalihale'
 # instagram: 'myinsta'
 # pinterest: 'mypinterest'
 # youtube: 'myyoutube'
 GitHub: 'kalihale'
-bluesky: 'kaliflower9.bsky.social'
+Bluesky: 'kaliflower9.bsky.social'
 #gitlab-user: ''
 #codepen: ''
 #steam: ''
@@ -33,7 +34,7 @@ bluesky: 'kaliflower9.bsky.social'
 # weibo: 'myweibo'
 # vk: 'myvk'
 Blog: 'kalihale.github.io/blog'
-email: 'kalihale@ucsb.edu'
+Email: 'kalihale@ucsb.edu'
 # messenger: 'myfbchat'
 My Name: 'www.youtube.com/watch?v=utP2A03TJVo'
 
@@ -149,7 +150,7 @@ social-links:
   # - name: quora
   #   url-pattern: www.quora.com/profile/__USERNAME__
 
-  - name: bluesky
+  - name: Bluesky
     url-pattern: bsky.app/profile/__USERNAME__
     icon-class: fab fa-2x fa-bluesky
 
@@ -157,10 +158,14 @@ social-links:
     url-pattern: '__USERNAME__'
     icon-class: fas fa-2x fa-blog
 
-  - name: email
+  - name: Email
     url-scheme: 'mailto:'
     url-pattern: '__USERNAME__'
     icon-class: far fa-2x fa-envelope-open
+
+  - name: Academic CV
+    url-pattern: '__USERNAME__'
+    icon-class far fa-2x fa-file
     
   - name: My Name
     url-pattern: '__USERNAME__'
