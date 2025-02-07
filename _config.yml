@@ -111,7 +111,7 @@ social-links:
     icon-class: fas fa-2x fa-signature
 
   - name: ORCID
-    url-pattern: https://orcid.org/__USERNAME__
+    url-pattern: orcid.org/__USERNAME__
     icon-class: fab fa-2x fa-orcid
 
   - name: Publications
