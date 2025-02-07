@@ -40,7 +40,7 @@ My Name: 'www.youtube.com/watch?v=utP2A03TJVo'
 ORCID: '0009-0001-2925-0607'
 Publications: 'kalihale.github.io/publications'
 
-top-links-order: [Academic CV, Publications, Email]
+top-links-order: [Email, Academic CV, Publications]
 
 social-links-order: [GitHub, LinkedIn, Bluesky, ORCID, Blog]
 
