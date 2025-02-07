@@ -1,7 +1,7 @@
 <ul>
     {% assign links = null | compact %}
     {% if site.social-links-order %}
-        {% for link in site.social-links-order %}
+        {% for link in site.top-links-order %}
             {% assign link-elem = site.social-links | where: "name", link %}
             {% assign links = links | concat: link-elem %}
         {% endfor %}
