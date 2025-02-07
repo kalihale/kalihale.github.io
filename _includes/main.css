@@ -97,7 +97,7 @@ ul.top-links li a {
     display: inline-block;
     color: black;
     font-family: "Fira Sans";
-    font-weight: normal;
+    font-weight: bold;
 }
 .top-links-description-mobile {
     display: none;
