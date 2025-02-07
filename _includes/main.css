@@ -125,4 +125,24 @@ a:hover {
 .content {
     padding-top: 30px;
 }
+ul.top-links {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+}
+
+ul.top-links li {
+    margin-bottom: 10px; /* Adjust the spacing between list items */
+}
+
+ul.top-links li a {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+}
+
+ul.top-links li a .description {
+    margin-left: 10px; /* Adjust the spacing between the icon and text */
+    font-size: 16px; /* Adjust the font size if necessary */
+}
 }
