@@ -94,8 +94,11 @@ ul.top-links li a {
 }
 
 ul.top-links li a .description {
-    margin-left: 10px; /* Adjust the spacing between the icon and text */
-    font-size: 16px; /* Adjust the font size if necessary */
+    display: inline-block;
+    color: black;
+    font-family: Helvetica;
+    margin-left: 10px;
+    font-weight: normal;
 }
 
 @media (max-width: 450px) {
