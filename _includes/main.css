@@ -93,11 +93,14 @@ ul.top-links li a {
     text-decoration: none;
 }
 
-.top-links-description {
+.top-links-description-desktop {
     display: inline-block;
     color: black;
     font-family: Helvetica;
     font-weight: normal;
+}
+.top-links-description-mobile {
+    display: none;
 }
 
 .top-link-container {
@@ -161,6 +164,17 @@ a:hover {
 }
 .content {
     padding-top: 30px;
+}
+
+.top-links-description-mobile {
+    display: inline-block;
+    color: black;
+    font-family: Helvetica;
+    margin-left: 40px;
+    font-weight: normal;
+}
+.top-links-description-desktop {
+    display: none;
 }
 
 }
