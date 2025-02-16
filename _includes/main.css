@@ -134,7 +134,7 @@ li {
     text-align: center;
     height: auto;
     width: auto;
-    overflow: hidden;
+    font-size: calc(8px + 2vw);
 }
 li:hover {
     background-color: none;
