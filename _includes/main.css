@@ -85,6 +85,8 @@ ul.top-links {
 
 ul.top-links li {
     margin-bottom: 0px; /* Adjust the spacing between list items */
+    margin-left: 20px;
+    margin-right: 20px;
 }
 
 ul.top-links li a {
