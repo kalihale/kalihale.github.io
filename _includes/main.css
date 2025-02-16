@@ -134,6 +134,7 @@ li {
     text-align: center;
     height: auto;
     width: auto;
+    overflow: hidden;
 }
 li:hover {
     background-color: none;
@@ -147,6 +148,9 @@ a {
     padding: 15px;
     padding-left: 30px;
     width: 70%;
+    height: auto;
+    white-space: normal;
+    display: block;
 }
 a:hover {
     -webkit-transition: 500ms;
