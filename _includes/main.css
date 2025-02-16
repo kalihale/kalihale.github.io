@@ -94,7 +94,13 @@ ul.top-links li a {
     align-items: center;
     text-decoration: none;
 }
+ul.top-links-mobile li {
+    display: none;
+}
 
+ul.top-links-mobile li a {
+    display: none;
+}
 .top-links-description-desktop {
     display: inline-block;
     color: black;
@@ -167,7 +173,22 @@ a:hover {
 .content {
     padding-top: 30px;
 }
+ul.top-links li {
+    display: none;
+}
 
+ul.top-links li a {
+    display: none;
+}
+ul.top-links-mobile li {
+    margin-bottom: 0px; /* Adjust the spacing between list items */
+}
+
+ul.top-links-mobile li a {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+}
 .top-links-description-mobile {
     display: inline-block;
     color: black;
