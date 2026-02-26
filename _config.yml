@@ -33,16 +33,17 @@ Bluesky: 'kalihale.bsky.social'
 # tumblr: 'mytumblr'
 # weibo: 'myweibo'
 # vk: 'myvk'
-Blog: 'kalihale.github.io/blog'
+# Blog: 'kalihale.github.io/blog'
 Email: 'kalihale@ucsb.edu'
 # messenger: 'myfbchat'
 My Name: 'www.youtube.com/watch?v=utP2A03TJVo'
 ORCID: '0009-0001-2925-0607'
 Publications: 'kalihale.github.io/publications'
+substack: 'kalihale'
 
 top-links-order: [Email, Academic CV, Publications]
 
-social-links-order: [GitHub, LinkedIn, Bluesky, ORCID, Blog]
+social-links-order: [GitHub, LinkedIn, Bluesky, ORCID, substack]
 
 # Yaml manifest of supported social links
 # Requirements:
@@ -96,7 +97,7 @@ social-links:
   - name: Blog
     url-pattern: '__USERNAME__'
     icon-class: fas fa-2x fa-blog
-
+    
   - name: Email
     url-scheme: 'mailto:'
     url-pattern: '__USERNAME__'
@@ -117,3 +118,7 @@ social-links:
   - name: Publications
     url-pattern: '__USERNAME__'
     icon-class: fas fa-2x fa-copy
+
+  - name: substack
+    url-pattern: https://substack.com/@__USERNAME__
+    icon-class: fas fa-2x fa-blog
