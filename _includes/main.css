@@ -1,5 +1,5 @@
 body {
-    font-family: "Fira Sans",Helvetica,Arial,sans-serif;
+    font-family: "Fira Sans", sans-serif;
     background-color: rgba(0, 0, 0, 0);
     position: absolute;
     top: 0;
@@ -31,7 +31,7 @@ h1 {
     font-weight: normal;
     letter-spacing: 0.1em;
     font-size: 4em;
-    font-family: Helvetica;
+    font-family: "Fira Sans", sans-serif;
     margin: -10px 0;
 }
 h3 {
