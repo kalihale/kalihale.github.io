@@ -11,35 +11,15 @@ background: 'background8.jpg'
 favicon: 'favicon.ico'
 
 # Online profiles
-#dribbble: 'mydribbble'
-# facebook: 'myfacebook'
-# twitter: 'mytwitter'
 Academic CV: 'kalihale.github.io/academic-cv'
 LinkedIn: 'kalihale'
-# instagram: 'myinsta'
-# pinterest: 'mypinterest'
-# youtube: 'myyoutube'
 GitHub: 'kalihale'
 Bluesky: 'kalihale.bsky.social'
-#gitlab-user: ''
-#codepen: ''
-#steam: ''
-#soundcloud: ''
-#lastfm: ''
-#stack-overflow: ''
-#reddit: ''
-#rubygems: ''
-#medium:  ''
-# tumblr: 'mytumblr'
-# weibo: 'myweibo'
-# vk: 'myvk'
-# Blog: 'kalihale.github.io/blog'
 Email: 'kalihale@ucsb.edu'
-# messenger: 'myfbchat'
 Scholar: '0tH8zmAAAAAJ'
 My Name: 'www.youtube.com/watch?v=utP2A03TJVo'
 pronunciation: 'https://www.youtube.com/watch?v=utP2A03TJVo'
-pronunciation-label: '(/ˈkɑli heɪl/)'
+pronunciation-label: '/ˈkɑli heɪl/'
 ORCID: '0009-0001-2925-0607'
 Publications: 'kalihale.github.io/publications'
 Substack: 'kalihale'
@@ -82,30 +62,9 @@ social-links:
     url-pattern: github.com/__USERNAME__
     icon-class: fab fa-2x fa-github
 
-  - name: gitlab-user
-    url-pattern: gitlab.com/__USERNAME__
-    icon-class: fab fa-2x fa-gitlab
-
-  - name: codepen
-    url-pattern: codepen.com/__USERNAME__
-
-  - name: stack-overflow
-    url-pattern: stackoverflow.com/users/__USERNAME__
-
-  - name: rubygems
-    url-pattern: rubygems.org/profiles/__USERNAME__
-    icon-class: far fa-2x fa-gem
-
-  - name: medium
-    url-pattern: medium.com/@__USERNAME__
-
   - name: Bluesky
     url-pattern: bsky.app/profile/__USERNAME__
     icon-class: fab fa-2x fa-bluesky
-
-  - name: Blog
-    url-pattern: '__USERNAME__'
-    icon-class: fas fa-2x fa-blog
     
   - name: Email
     url-scheme: 'mailto:'
@@ -115,10 +74,6 @@ social-links:
   - name: Academic CV
     url-pattern: '__USERNAME__'
     icon-class: far fa-2x fa-file
-    
-  - name: My Name
-    url-pattern: '__USERNAME__'
-    icon-class: fas fa-2x fa-signature
 
   - name: ORCID
     url-pattern: orcid.org/__USERNAME__
