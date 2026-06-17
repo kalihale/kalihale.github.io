@@ -36,14 +36,17 @@ Bluesky: 'kalihale.bsky.social'
 # Blog: 'kalihale.github.io/blog'
 Email: 'kalihale@ucsb.edu'
 # messenger: 'myfbchat'
+Scholar: '0tH8zmAAAAAJ'
 My Name: 'www.youtube.com/watch?v=utP2A03TJVo'
 ORCID: '0009-0001-2925-0607'
 Publications: 'kalihale.github.io/publications'
 substack: 'kalihale'
 
-top-links-order: [Email, Academic CV, Publications]
+top-links-order: [GitHub, LinkedIn, Scholar]
 
-social-links-order: [GitHub, LinkedIn, Bluesky, ORCID, substack]
+next-links-order: [Email, Academic CV, Publications, ORCID]
+
+social-links-order: [Bluesky, substack]
 
 # Yaml manifest of supported social links
 # Requirements:
@@ -68,6 +71,10 @@ social-links:
   - name: LinkedIn
     url-pattern: linkedin.com/in/__USERNAME__
     icon-class: fab fa-2x fa-linkedin
+
+  - name: Scholar
+    url-pattern: scholar.google.com/citations?user=__USERNAME__
+    icon-class: fab fa-2x fa-google-scholar
 
   - name: GitHub
     url-pattern: github.com/__USERNAME__
