@@ -40,13 +40,13 @@ Scholar: '0tH8zmAAAAAJ'
 My Name: 'www.youtube.com/watch?v=utP2A03TJVo'
 ORCID: '0009-0001-2925-0607'
 Publications: 'kalihale.github.io/publications'
-substack: 'kalihale'
+Substack: 'kalihale'
 
 top-links-order: [GitHub, LinkedIn, Scholar]
 
 next-links-order: [Email, Academic CV, Publications, ORCID]
 
-social-links-order: [Bluesky, substack]
+social-links-order: [Bluesky, Substack]
 
 # Yaml manifest of supported social links
 # Requirements:
@@ -126,6 +126,6 @@ social-links:
     url-pattern: '__USERNAME__'
     icon-class: fas fa-2x fa-copy
 
-  - name: substack
+  - name: Substack
     url-pattern: substack.com/@__USERNAME__
     icon-class: fas fa-2x fa-blog
