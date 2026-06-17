@@ -8,6 +8,8 @@
     {% endif %}
 
     <h1>{{ site.title }}</h1>
-    <a style="margin-top: 0px; font-size: small; color: #0000cc; text-decoration: underline; text-align: center; display: contents" href="https://www.youtube.com/watch?v=utP2A03TJVo">(/ˈkɑli heɪl/)</a>
+    {% if site.pronunciation %}
+    <a style="margin-top: 0px; font-size: small; color: #0000cc; text-decoration: underline; text-align: center; display: contents" href="{{ site.pronunciation }}">{{ site.pronunciation-label | default: "(how to pronounce)" }}</a>
+    {% endif %}
     <h3>{{ site.description }}</h3>
 </div>
