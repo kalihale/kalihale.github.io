@@ -85,4 +85,4 @@ social-links:
 
   - name: Substack
     url-pattern: substack.com/@__USERNAME__
-    icon-class: fas fa-2x fa-blog
+    icon-class: substack-icon fa-2x

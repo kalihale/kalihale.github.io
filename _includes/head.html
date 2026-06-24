@@ -1,0 +1,21 @@
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<title>{{ site.title }}</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="{{ site.description }}">
+<link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
+{% if site.favicon %}
+<link rel="shortcut icon" href="{{ site.favicon }}" />
+{% endif %}
+<script src="https://kit.fontawesome.com/ea37dc904f.js"></script>
+<style>
+.substack-icon::before {
+  content: "";
+  display: inline-block;
+  width: 1em;
+  height: 1em;
+  background-color: currentColor;
+  -webkit-mask: url('/substack.svg') no-repeat center / contain;
+  mask: url('/substack.svg') no-repeat center / contain;
+}
+</style>
