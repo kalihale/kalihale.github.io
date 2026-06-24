@@ -22,7 +22,7 @@ pronunciation: 'https://www.youtube.com/watch?v=utP2A03TJVo'
 pronunciation-label: '/ˈkɑli heɪl/'
 ORCID: '0009-0001-2925-0607'
 Publications: 'kalihale.github.io/publications'
-Substack: 'kalihale'
+Substack: 'kalihale.substack.com/'
 
 top-links-order: [GitHub, LinkedIn, Scholar]
 
@@ -84,5 +84,5 @@ social-links:
     icon-class: fas fa-2x fa-copy
 
   - name: Substack
-    url-pattern: substack.com/@__USERNAME__
+    url-pattern: '__USERNAME__'
     icon-class: substack-icon fa-2x
