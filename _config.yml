@@ -1,5 +1,8 @@
 # Theme
-remote_theme: kalihale/cover-card@main
+# Theme source lives on the `main` branch of this same repo, so the theme and
+# the site that uses it stay in sync from a single place. (The old
+# kalihale/cover-card mirror is no longer used.)
+remote_theme: kalihale/kalihale.github.io@main
 
 # Title and tag line
 title: 'Kali Hale'
