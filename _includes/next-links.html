@@ -16,9 +16,9 @@
         <li>
             <div class="top-link-container">
               <a class="{{ link.icon-class | default: default-icon-class }}" aria-label="{{ link.name }}" href="{{ link.url-scheme | default: '//' }}{{ link.url-pattern | replace: '__USERNAME__', username }}">
-                  <span class="top-links-description-mobile">{{ link.name }}</span>
+                  <span class="top-links-description-mobile" aria-hidden="true">{{ link.name }}</span>
               </a>
-              <span class="top-links-description-desktop">{{ link.name }}</span>
+              <span class="top-links-description-desktop" aria-hidden="true">{{ link.name }}</span>
             </div>
         </li>
         {% endif %}
