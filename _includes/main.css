@@ -1,5 +1,7 @@
+/* The page colour lives on body, not on an overlay, so that contrast is
+   computable by tooling and survives the background image failing to load. */
 :root {
-    --scrim: rgba(26, 38, 52, 0.85);
+    --page: #1e2833;
     --ink: #a9b6c4;
     --link: #a5c8ec;
     --hover-bg: rgba(255, 255, 255, 0.15);
@@ -8,7 +10,7 @@
 
 @media (prefers-color-scheme: light) {
     :root {
-        --scrim: rgba(179, 198, 217, 0.75);
+        --page: #adbece;
         --ink: #1a2530;
         --link: #16304f;
         --hover-bg: rgba(0, 0, 0, 0.65);
@@ -18,7 +20,7 @@
 
 body {
     font-family: "Fira Sans", sans-serif;
-    background-color: rgba(0, 0, 0, 0);
+    background-color: var(--page);
     position: absolute;
     top: 0;
     bottom: 0;
@@ -36,15 +38,7 @@ body {
   display: block;
   position: fixed;
   z-index: -999;
-  opacity: 0.8;
-}
-body::before {
-    content: "";
-    position: fixed;
-    inset: 0;
-    background-color: var(--scrim);
-    z-index: -998;
-    pointer-events: none;
+  opacity: 0.12;
 }
 #avatar {
     height: 180px;
@@ -245,17 +239,18 @@ ul.top-links li a {
 
 @media (prefers-contrast: more) {
     :root {
-        --scrim: rgba(0, 0, 0, 0.92);
+        --page: #000000;
         --ink: #ffffff;
         --link: #cfe4ff;
         --hover-bg: rgba(255, 255, 255, 0.25);
         --hover-ink: #ffffff;
     }
+    #fullscreen { display: none; }
 }
 
 @media (prefers-color-scheme: light) and (prefers-contrast: more) {
     :root {
-        --scrim: rgba(255, 255, 255, 0.95);
+        --page: #ffffff;
         --ink: #000000;
         --link: #00204d;
         --hover-bg: rgba(0, 0, 0, 0.75);
@@ -264,5 +259,5 @@ ul.top-links li a {
 }
 
 @media (forced-colors: active) {
-    #fullscreen, body::before { display: none; }
+    #fullscreen { display: none; }
 }
