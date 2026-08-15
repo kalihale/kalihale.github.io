@@ -20,14 +20,22 @@ body {
   z-index: -999;
   opacity: 0.8;
 }
+body::before {
+    content: "";
+    position: fixed;
+    inset: 0;
+    background-color: rgba(250, 248, 244, 0.75);
+    z-index: -998;
+    pointer-events: none;
+}
 #avatar {
     height: 180px;
     border-radius: 100%;
-    border: 3px solid black;
+    border: 3px solid #3a3a3a;
     margin-bottom: 25px;
 }
 h1 {
-    color: black;
+    color: #3a3a3a;
     font-weight: normal;
     letter-spacing: 0.1em;
     font-size: 4.5em;
@@ -36,7 +44,7 @@ h1 {
 }
 /* Matches the browser default h3 metrics this used to rely on. */
 .tagline {
-    color: black;
+    color: #3a3a3a;
     padding-bottom: 0px;
     font-size: 1.17em;
     font-weight: bold;
@@ -57,7 +65,7 @@ ul {
 li {
     border-radius: 100%;
     border: 2px transparent;
-    color: black;
+    color: #3a3a3a;
     margin: 8px;
     display: inline-block;
     list-style: none;
@@ -65,7 +73,7 @@ li {
     height: 65px;
 }
 li:hover {
-    color: black;
+    color: #3a3a3a;
     text-decoration: none;
     -webkit-transition: 500ms;
     -moz-transition: 500ms;
@@ -74,7 +82,7 @@ li:hover {
     background-color: rgba(0, 0, 0, 0.25);
 }
 a {
-    color: black;
+    color: #3a3a3a;
     padding: 15px;
     text-decoration: none;
 }
@@ -104,7 +112,7 @@ ul.top-links li a {
 }
 .top-links-description-desktop {
     display: inline-block;
-    color: black;
+    color: #3a3a3a;
     font-family: "Fira Sans";
     font-weight: bold;
 }
@@ -134,7 +142,7 @@ ul {
 li {
     border-radius: 0%;
     border: none;
-    color: black;
+    color: #3a3a3a;
     margin: 8px;
     display: block;
     list-style: none;
@@ -150,9 +158,9 @@ li:hover {
 }
 a {
     text-align: justify;
-    border: 2px solid black;
+    border: 2px solid #3a3a3a;
     border-radius: 5px;
-    color: black;
+    color: #3a3a3a;
     padding: 15px;
     padding-left: 30px;
     width: 70%;
@@ -164,13 +172,13 @@ a:hover {
     -webkit-transition: 500ms;
     -moz-transition: 500ms;
     transition: 500ms;
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: rgba(0, 0, 0, 0.65);
     color: white;
     text-decoration: none;
 }
 .description {
     display: inline-block;
-    color: black;
+    color: #3a3a3a;
     font-family: "Fira Sans";
     margin-left: 40px;
     font-weight: normal;
@@ -191,7 +199,7 @@ ul.top-links li a {
 }
 .top-links-description-mobile {
     display: inline-block;
-    color: black;
+    color: #3a3a3a;
     font-family: "Fira Sans";
     font-weight: bold;
     margin-left: 40px;
@@ -201,4 +209,15 @@ ul.top-links li a {
     display: none;
 }
 
+}
+
+@media (prefers-contrast: more) {
+    body::before { background-color: #fff; }
+    h1, .tagline, li, a, .description,
+    .top-links-description-desktop, .top-links-description-mobile { color: #000; }
+    #avatar { border-color: #000; }
+}
+
+@media (forced-colors: active) {
+    #fullscreen, body::before { display: none; }
 }
