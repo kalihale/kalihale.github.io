@@ -34,10 +34,13 @@ h1 {
     font-family: "Fira Sans", sans-serif;
     margin: -10px 0;
 }
-h3 {
+/* Matches the browser default h3 metrics this used to rely on. */
+.tagline {
     color: black;
     padding-bottom: 0px;
+    font-size: 1.17em;
     font-weight: bold;
+    margin-top: 1em;
     margin-bottom: -10px;
 }
 .content {
